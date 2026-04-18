@@ -162,6 +162,14 @@ const agenda = [
         responsable: 'Asoc. Estudiantes de Inglés',
         publico: 'Abierta a la Comunidad Universitaria',
       },
+      {
+        hora: '07:00 p.m.',
+        nombre: 'Presentación de Baile Popular-Ritmo y Sol',
+        lugar: 'Multiusos',
+        descripcion: 'Presentación de baile a cargo del grupo Ritmo y Sol.',
+        responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
     ],
   },
   {
@@ -310,6 +318,14 @@ const agenda = [
         responsable: 'Asoc. Estudiantes Sede Guanacaste',
         publico: 'Abierta a la Comunidad Universitaria',
       },
+      {
+        hora: '04:00 p.m.',
+        nombre: 'Presentación del Grupo Ensamble Musical',
+        lugar: 'Multiusos',
+        descripcion: 'Presentación musical a cargo del grupo Ensamble Musical de la Sede Guanacaste.',
+        responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
     ],
   },
   {
@@ -380,6 +396,22 @@ const agenda = [
         responsable: 'Asoc. Estudiantes de Derecho',
         publico: 'Limitada a la Población de la Carrera',
       },
+      {
+        hora: '04:00 p.m.',
+        nombre: 'Presentación de Teatro-Catarsis',
+        lugar: 'Multiusos',
+        descripcion: 'Presentación teatral a cargo del grupo Teatro-Catarsis de la Sede Guanacaste.',
+        responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
+        hora: '05:00 p.m.',
+        nombre: 'Presentación de Baile Folclórico-Grupo Huanacaxtle',
+        lugar: 'Multiusos',
+        descripcion: 'Presentación de baile folclórico a cargo del grupo Huanacaxtle de la Sede Guanacaste.',
+        responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
     ],
   },
   {
@@ -401,6 +433,14 @@ const agenda = [
         descripcion: 'Desarrollo de actividades en parejas o equipos con obstáculos y estaciones.',
         responsable: 'Asoc. Estudiantes de Turismo',
         publico: 'Limitada a la Población de la Carrera',
+      },
+      {
+        hora: '11:00 a.m.',
+        nombre: 'Presentación de la Cimarrona de la sede Guanacaste',
+        lugar: 'Multiusos',
+        descripcion: 'Presentación de la Cimarrona, a cargo de los estudiantes de la Sede Guanacaste.',
+        responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
       },
       {
         hora: '01:00 p.m.',
