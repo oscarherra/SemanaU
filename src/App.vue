@@ -406,14 +406,6 @@ const agenda = [
       },
       {
         hora: '02:00 p.m.',
-        nombre: 'Karaoke Clásico',
-        lugar: 'Salón Multiusos',
-        descripcion: 'Tarde de karaoke con los éxitos de todos los tiempos.',
-        responsable: 'Asoc. Estudiantes Sede Guanacaste',
-        publico: 'Abierta a la Comunidad Universitaria',
-      },
-      {
-        hora: '02:00 p.m.',
         nombre: '¿Quién quiere ser jurista?',
         lugar: 'Sala de Juicios',
         descripcion: 'Concurso de conocimientos jurídicos al estilo de programa de TV.',
@@ -464,6 +456,14 @@ const agenda = [
         lugar: 'Multiusos',
         descripcion: 'Presentación de la Cimarrona, a cargo de los estudiantes de la Sede Guanacaste.',
         responsable: 'Gestión Cultural Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
+        hora: '12:00 p.m.',
+        nombre: 'Karaoke Clásico',
+        lugar: 'Salón Multiusos',
+        descripcion: 'Tarde de karaoke con los éxitos de todos los tiempos.',
+        responsable: 'Asoc. Estudiantes Sede Guanacaste',
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
