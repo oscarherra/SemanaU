@@ -23,6 +23,7 @@ import logoAsoadu from '@/assets/asoadu.jpeg'
 import logoCac from '@/assets/cac.png'
 import logoDn from '@/assets/dn.png'
 import logoInfo from '@/assets/INFO.png'
+import logoBiblio from '@/assets/biblio.jpg'
 
 const DAY_COLORS = ['#FF4D1C', '#00B896', '#F5B800', '#D94FD5', '#2563EB', '#16A34A']
 
@@ -38,6 +39,7 @@ const instagramLinks = {
   dn: 'https://www.instagram.com/dn_guanacaste/',
   agia: 'https://www.instagram.com/a.g.i.a/',
   cac: 'https://www.instagram.com/cacsg.ucr/',
+  biblioteca: 'https://www.instagram.com/bibliotecasg_ucr/',
 }
 
 const organizadores = [
@@ -106,6 +108,12 @@ const organizadores = [
     handle: '@cacsg.ucr',
     instagram: instagramLinks.cac,
     logo: logoCac,
+  },
+  {
+    nombre: 'Biblioteca Sede Guanacaste',
+    handle: '@bibliotecasg_ucr',
+    instagram: instagramLinks.biblioteca,
+    logo: logoBiblio,
   },
 ]
 
@@ -303,6 +311,14 @@ const agenda = [
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
+        hora: '02:00 p.m.',
+        nombre: 'Tarde de Juegos femeninos',
+        lugar: 'Biblioteca',
+        descripcion: 'Tarde de convivio y películas seleccionadas por la carrera.',
+        responsable: 'Biblioteca Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
         hora: '03:00 p.m.',
         nombre: 'Tardeada de Artes',
         lugar: 'Salón Multiusos',
@@ -347,6 +363,14 @@ const agenda = [
         descripcion: 'Búsqueda de pistas por todo el campus para Turismo.',
         responsable: 'Asoc. Estudiantes de Turismo',
         publico: 'Limitada a la Población de la Carrera',
+      },
+      {
+        hora: '09:00 a.m. - 12:00 a.m.',
+        nombre: 'Bingo Literario',
+        lugar: 'Diferentes áreas',
+        descripcion: '¡¡Donde habrá mucha diversión, premios y lectura!!',
+        responsable: 'Biblioteca Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
       },
       {
         hora: '10:00 a.m.',
@@ -502,6 +526,7 @@ function isOpen(ev) {
 function getInstagram(ev) {
   const responsable = normalizeText(ev?.responsable || '')
 
+  if (responsable.includes('biblioteca')) return instagramLinks.biblioteca
   if (responsable.includes('sede guanacaste')) return instagramLinks.aeg
   if (responsable.includes('turismo')) return instagramLinks.aete
   if (responsable.includes('informatica')) return instagramLinks.asoinfo
@@ -515,6 +540,7 @@ function getInstagram(ev) {
   if (responsable.includes('ing. alimentos')) return instagramLinks.agia
   if (responsable.includes('ingenieria de alimentos')) return instagramLinks.agia
   if (responsable.includes('consejo de asociaciones')) return instagramLinks.cac
+  
 
   return ''
 }
