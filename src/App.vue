@@ -349,14 +349,6 @@ const agenda = [
     fecha: '23 de Abril',
     actividades: [
       {
-        hora: '08:00 a.m. - 12:00 m.d.',
-        nombre: 'Fútbol sala',
-        lugar: 'Gimnasio',
-        descripcion: 'Actividad deportiva recreativa de fútbol sala.',
-        responsable: 'Asoc. Estudiantes Sede Guanacaste',
-        publico: 'Abierta a la Comunidad Universitaria',
-      },
-      {
         hora: '09:00 a.m.',
         nombre: 'Búsqueda del Tesoro',
         lugar: 'Diferentes áreas',
