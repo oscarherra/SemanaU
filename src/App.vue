@@ -147,14 +147,6 @@ const agenda = [
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
-        hora: '10:00 a.m.',
-        nombre: 'Rally DN',
-        lugar: 'Cancha de Futbol',
-        descripcion: 'Rally temático con pruebas y retos para estudiantes.',
-        responsable: 'Asoc. Estudiantes Dirección de Negocios',
-        publico: 'Abierta a la Comunidad Universitaria',
-      },
-      {
         hora: '12:00 m.d.',
         nombre: 'Gran Bingo',
         lugar: 'Salón Multiusos',
@@ -284,6 +276,14 @@ const agenda = [
         lugar: 'Aula 16',
         descripcion: 'Sesión de cine al mediodía.',
         responsable: 'Asoc. Estudiantes Sede Guanacaste',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
+        hora: '01:00 p.m.',
+        nombre: 'Rally DN',
+        lugar: 'Cancha de Futbol',
+        descripcion: 'Rally temático con pruebas y retos para estudiantes.',
+        responsable: 'Asoc. Estudiantes Dirección de Negocios',
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
