@@ -138,14 +138,7 @@ const agenda = [
         responsable: 'Asoc. Estudiantes de Inglés',
         publico: 'Abierta a la Comunidad Universitaria',
       },
-      {
-        hora: '10:00 a.m. - 01:00 p.m.',
-        nombre: 'Cafeteada"',
-        lugar: 'Edificio AEG',
-        descripcion: 'Cafeteada para compartir un momento de convivencia.',
-        responsable: 'Asoc. Estudiantes Sede Guanacaste',
-        publico: 'Abierta a la Comunidad Universitaria',
-      },
+
       {
         hora: '12:00 m.d.',
         nombre: 'Gran Bingo',
@@ -160,6 +153,14 @@ const agenda = [
         lugar: 'Biblioteca',
         descripcion: 'Concurso de baile con el videojuego Just Dance.',
         responsable: 'Asoc. Estudiantes de Inglés',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
+        hora: '03:00 p.m. - 05:00 p.m.',
+        nombre: 'Cafeteada',
+        lugar: 'Edificio AEG',
+        descripcion: 'Cafeteada para compartir un momento de convivencia.',
+        responsable: 'Asoc. Estudiantes Sede Guanacaste',
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
@@ -185,7 +186,7 @@ const agenda = [
         publico: 'Abierta a la Comunidad Universitaria',
       },
       {
-        hora: '10:00 a.m.',
+        hora: '10:00 a.m. - 04:00 p.m.',
         nombre: 'Taller de Totebags',
         lugar: 'Salón Multiusos',
         descripcion: 'Taller de pintura y personalización de bolsas de tela.',
