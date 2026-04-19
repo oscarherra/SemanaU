@@ -389,6 +389,14 @@ const agenda = [
         publico: 'Limitada a la Población de la Carrera',
       },
       {
+        hora: '01:00 p.m. - 04:00 p.m.',
+        nombre: 'TALLER DE DIBUJO CREATIVO',
+        lugar: 'Audiovisuales 2 (dentro de la Biblioteca)',
+        descripcion: 'el Club de Arte, organiza este taller de dibujo creativo, pensado para que te diviertas creando durante semana U. Se realizarán diversos ejercicios de dibujo en un espacio seguro, con el objetivo de fomentar la creatividad, explorar la imaginación y superar bloqueos creativos.',
+        responsable: 'Vida Estudiantil',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
+      {
         hora: '02:00 p.m. - 04:00 p.m.',
         nombre: 'Charlas con expositores invitados',
         lugar: 'Auditorio',
@@ -410,7 +418,7 @@ const agenda = [
         lugar: 'Multiusos',
         descripcion: 'Presentación teatral a cargo del grupo Teatro-Catarsis de la Sede Guanacaste.',
         responsable: 'Gestión Cultural Sede Guanacaste',
-        publico: 'Abierta a la Comunidad Universitaria',
+        publico: 'xc',
       },
       {
         hora: '05:00 p.m.',
