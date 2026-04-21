@@ -233,6 +233,14 @@ const agenda = [
         responsable: 'Asoc. Estudiantes Sede Guanacaste',
         publico: 'Abierta a la Comunidad Universitaria',
       },
+      {
+        hora: '03:00 p.m.',
+        nombre: 'Cineforo - A Misterious Murder',
+        lugar: 'Sala mixta - Biblioteca',
+        descripcion: '*La película será presentada con subtítulos en español y al final de su función, se tendrá un conversatorio con el director Keyvon Pierre Adams.',
+        responsable: 'Asoc. Estudiantes de Inglés',
+        publico: 'Abierta a la Comunidad Universitaria',
+      },
     ],
   },
   {
