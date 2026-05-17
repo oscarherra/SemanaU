@@ -783,7 +783,7 @@ const totalLimitadas = computed(() =>
         <div class="organizers-band__header">
           <h2>Organizan</h2>
           <p>
-            Agrupaciones estudiantiles que hacen posible la Semana U 2026 en la Sede Guanacaste.
+            Aaaaaagrupaciones estudiantiles que hacen posible la Semana U 2026 en la Sede Guanacaste.
           </p>
         </div>
 
